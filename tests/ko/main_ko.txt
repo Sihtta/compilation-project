@@ -1,0 +1,10 @@
+program {
+  real x;
+  real y;
+  bool ok;
+
+  x = 3.14;
+  y = (2 + 5;
+  ok = true;
+  x = x + y;
+}

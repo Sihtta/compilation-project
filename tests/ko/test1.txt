@@ -1,0 +1,4 @@
+program {
+  real x
+  x = 3.14;
+}
