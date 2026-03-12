@@ -1,0 +1,16 @@
+program {
+  real x;
+  real y;
+  bool ok;
+
+  x = 10;
+  y = 5;
+
+  ok = x > y;
+  ok = x >= y;
+  ok = x == y;
+  ok = x != y;
+  ok = (x > y) && true;
+  ok = (x < y) || false;
+  ok = !false;
+}

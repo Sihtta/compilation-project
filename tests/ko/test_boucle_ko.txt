@@ -1,0 +1,10 @@
+program {
+  real x;
+  real limit;
+
+  x = 0;
+  limit = 2;
+
+  while (x < limit) {
+    x = x + 1;
+}

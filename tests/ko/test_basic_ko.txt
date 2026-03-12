@@ -1,0 +1,7 @@
+program {
+  real x;
+  bool ok;
+
+  x = ;
+  ok = true;
+}

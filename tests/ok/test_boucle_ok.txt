@@ -1,0 +1,14 @@
+program {
+  real x;
+  real limit;
+  bool ok;
+
+  x = 0;
+  limit = 3;
+  ok = true;
+
+  while (x < limit) {
+    x = x + 1;
+    ok = (x <= limit) && true;
+  }
+}

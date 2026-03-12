@@ -14,6 +14,9 @@
 "bool"                  { return BOOL; }
 "true"                  { return TRUE; }
 "false"                 { return FALSE; }
+"if"                    { return IF; }
+"else"                  { return ELSE; }
+"while"                 { return WHILE; }
 
 "{"                     { return LBRACE; }
 "}"                     { return RBRACE; }
@@ -27,6 +30,17 @@
 "-"                     { return MINUS; }
 "*"                     { return TIMES; }
 "/"                     { return DIVIDE; }
+
+">="                    { return GE; }
+"<="                    { return LE; }
+"=="                    { return EQ; }
+"!="                    { return NE; }
+">"                     { return GT; }
+"<"                     { return LT; }
+
+"&&"                    { return AND; }
+"||"                    { return OR; }
+"!"                     { return NOT; }
 
 [0-9]+(\.[0-9]+)?       { yylval.realval = atof(yytext); return NUMBER; }
 

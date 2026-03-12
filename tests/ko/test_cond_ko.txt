@@ -1,0 +1,13 @@
+program {
+  real x;
+  bool ok;
+
+  x = 3;
+  ok = true;
+
+  if (ok {
+    x = x + 1;
+  } else {
+    x = x - 1;
+  }
+}
