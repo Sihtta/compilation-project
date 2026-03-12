@@ -52,7 +52,8 @@ Ici :
 %left GT LT GE LE EQ NE
 
 /* Priorités pour les opérateurs booléens */
-%left AND OR
+%left OR
+%left AND
 %right NOT
 
 %%

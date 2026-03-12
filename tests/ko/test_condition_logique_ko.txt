@@ -1,0 +1,13 @@
+program {
+  real x;
+  real y;
+  bool ok;
+
+  x = 5;
+  y = 2;
+  ok = true;
+
+  if ((x > y) && ) {
+    x = x + 1;
+  }
+}
