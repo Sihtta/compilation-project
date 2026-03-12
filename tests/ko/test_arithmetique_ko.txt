@@ -1,0 +1,9 @@
+program {
+  real a;
+  real b;
+  real result;
+
+  a = 10;
+  b = 5;
+  result = a + ;
+}

@@ -1,0 +1,19 @@
+program {
+  real a;
+  real b;
+  real c;
+  real d;
+  real result;
+
+  a = 10;
+  b = 5;
+  c = 2;
+  d = 4;
+
+  result = a + b;
+  result = a - c;
+  result = b * d;
+  result = a / c;
+  result = a + b * c;
+  result = (a + b) * c;
+}
