@@ -2,12 +2,14 @@ program {
   real x;
   real y;
   real z;
+  real limit;
   bool ok;
 
   x = 10;
   y = 2;
-  z = (x + y) * 3 - y / 2;
+  limit = 3;
 
+  z = (x + y) * 3 - y / 2;
   ok = (x > y) && !(z < x);
 
   if (ok) {
@@ -16,8 +18,20 @@ program {
     x = x + 1;
   }
 
+  if (x < z) {
+    y = y + 5;
+    ok = true;
+  } else {
+    y = y - 1;
+    ok = false;
+  }
+
   while (x > y) {
     x = x - 1;
     ok = (x >= y) || false;
+  }
+
+  while (limit > 0) {
+    limit = limit - 1;
   }
 }

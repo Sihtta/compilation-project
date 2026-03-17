@@ -1,0 +1,33 @@
+program {
+  real x;
+  real y;
+  real tab[4];
+  bool ok;
+  bool etats[2];
+
+  x = 5;
+  y = 10;
+
+  tab[0] = x + y;
+  tab[1] = (x * 2) + 1;
+  tab[2] = tab[0];
+  tab[3] = 0;
+
+  etats[0] = true;
+  etats[1] = false;
+
+  ok = (x < y) && etats[0];
+
+  if (ok) {
+    x = tab[1];
+  } else {
+    x = 0;
+  }
+
+  while (x > 0) {
+    x = x - 1;
+  }
+
+  tab = [7, 8, 9];
+  etats = [false, true];
+}

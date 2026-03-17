@@ -1,0 +1,35 @@
+program {
+  real notes[5];
+  bool flags[3];
+  real x;
+  real moyenne;
+  bool ok;
+
+  notes[0] = 12.5;
+  notes[1] = 15;
+  notes[2] = 10 + 2 * 3;
+  notes[3] = (4 + 1) * 2;
+  notes[4] = 0;
+
+  flags[0] = true;
+  flags[1] = false;
+  flags[2] = notes[1] > notes[0];
+
+  x = notes[1];
+  moyenne = (notes[0] + notes[1] + notes[2]) / 3;
+  ok = notes[2] > 10;
+  ok = (notes[0] < notes[1]) && !flags[1];
+
+  notes = [1, 2, 3];
+  flags = [true, false, true];
+
+  if (notes[0] < notes[1]) {
+    notes[3] = 20;
+  } else {
+    notes[4] = 0;
+  }
+
+  while (x < 20) {
+    x = x + 1;
+  }
+}

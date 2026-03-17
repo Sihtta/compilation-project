@@ -1,0 +1,45 @@
+program {
+  real x;
+  real y;
+  real z;
+  real a;
+  real b;
+  real c;
+  real d;
+  real total;
+  real result;
+  bool ok;
+
+  x = 3.14;
+  y = 2;
+  z = 10;
+  a = 8;
+  b = 3;
+  c = 2;
+  d = 4;
+
+  total = x + y * 5;
+  total = (x + y) * (2 + 3);
+  total = total - x * y;
+
+  result = z + y;
+  result = z - c;
+  result = y * d;
+  result = z / c;
+  result = z + y * c;
+  result = (z + y) * c;
+
+  ok = true;
+  ok = false;
+  ok = x > y;
+  ok = x >= y;
+  ok = x == y;
+  ok = x != y;
+  ok = (x > y) && true;
+  ok = (x < y) || false;
+  ok = !false;
+  ok = (a > b) && !(a == 0);
+
+  x = x + 1;
+  y = y / 2;
+}
